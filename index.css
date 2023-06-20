@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+}
+.writting{
+    padding: 20px;
+}
+.writting h1{
+    font-size: 60px;
+    padding: 10px;
+}
+.writting h4{
+    font-size: 25px;
+    padding: 10px;
+}
+.writting h4 ul{
+    margin: 1em ;
+}
+.writting h4 ul li{
+    list-style: none;
+    padding: 10px 0;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.email p{
+    margin: 0em 2em;
+}
+.email input{
+    margin: 0em 2em;
+    height: 3.5em;
+    width: 20em;
+    border-radius: 12px;
+    text-align: left;
+    padding: 5px;
+}
+.email button{
+    margin: 2em;
+    width: 20em;
+    height: 3.5em;
+    border-radius: 12px;
+}
+
+#finalmessage{
+    display: none;
+}
+#finalmessage img{
+    margin: 10em 4em 0 4em;
+}
+.message{
+    margin: 3em  4em;
+}
+.message h1{
+    font-size: 50px;
+}
+.message p{
+    font-size: 20px;
+}
+button{
+    height: 3.5em;
+    width: 30vh;
+    margin: 15em 5em 0em;
+    border-radius: 12px;
+}
