@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: hsl(234, 29%, 20%)
+}
 .image img{
     height: 100%;
     width: 100%;
@@ -13,10 +16,12 @@
 .writting h1{
     font-size: 60px;
     padding: 10px;
+    color: hsl(235, 18%, 26%);
 }
 .writting h4{
     font-size: 25px;
     padding: 10px;
+    color: hsl(231, 7%, 60%);
 }
 .writting h4 ul{
     margin: 1em ;
@@ -24,6 +29,7 @@
 .writting h4 ul li{
     list-style: none;
     padding: 10px 0;
+    color: hsl(231, 7%, 60%);
 }
 .email{
     display: flex;
@@ -48,9 +54,9 @@
     border-radius: 12px;
 }
 
-#finalmessage{
+/* #finalmessage{
     display: none;
-}
+} */
 #finalmessage img{
     margin: 10em 4em 0 4em;
 }
@@ -59,13 +65,91 @@
 }
 .message h1{
     font-size: 50px;
+    color: hsl(235, 18%, 26%);
 }
 .message p{
     font-size: 20px;
+    color: hsl(231, 7%, 60%);
 }
 button{
     height: 3.5em;
     width: 30vh;
     margin: 15em 5em 0em;
     border-radius: 12px;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    
 }
+@media screen and (min-width:600Px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section1{
+        border: 1px solid black;
+       margin: 2.5em 4em;
+       display: grid;
+       grid-template-areas:
+       "writting image"
+       "email image"
+       ;
+       border-radius: 12px;
+       background-color: white;
+    }
+    .image{
+        grid-area: image;
+    }
+    .image img{
+        object-fit: cover;
+        border-radius: 12px;
+    }
+    .writting{
+        grid-area: writting;
+    }
+    .email{
+
+        grid-area: email;
+    }
+
+    #finalmessage{
+        border: 1px solid black;
+        margin: 6.5em;
+        width: 30em;
+        border-radius: 12px;
+        background-color: white;
+        display: none;
+    }
+    #finalmessage .message{
+        flex-wrap: wrap;
+    }
+    #finalmessage button{
+        margin: 0 5em 1.5em;
+        width: 20em;
+        
+        
+    }
+    #finalmessage img{
+        margin: 2em 4em 0 4em;
+    }
+    .message{
+        margin: 1.5em  4em;
+    }
+    .email button{
+        margin: 2em;
+        width: 40em;
+        height: 3.5em;
+        border-radius: 12px;
+    }
+    .email input{
+        margin: 0em 2em;
+        height: 3.5em;
+        width: 40em;
+        border-radius: 12px;
+        text-align: left;
+        padding: 10px;
+    }
+}
+
+
+
