@@ -6,6 +6,9 @@
 body{
     background-color: hsl(234, 29%, 20%)
 }
+.section1{
+    background-color: white;
+}
 .image img{
     height: 100%;
     width: 100%;
@@ -14,12 +17,12 @@ body{
     padding: 20px;
 }
 .writting h1{
-    font-size: 60px;
+    font-size: 30px;
     padding: 10px;
     color: hsl(235, 18%, 26%);
 }
 .writting h4{
-    font-size: 25px;
+    font-size: 20px;
     padding: 10px;
     color: hsl(231, 7%, 60%);
 }
@@ -148,6 +151,19 @@ button{
         border-radius: 12px;
         text-align: left;
         padding: 10px;
+    }
+    .writting h4{
+        font-size: 16px;
+    }
+    .writting h1{
+        font-size: 60px;
+        padding: 10px;
+        color: hsl(235, 18%, 26%);
+    }
+    .writting h4{
+        font-size: 16px;
+        padding: 10px;
+        color: hsl(231, 7%, 60%);
     }
 }
 
