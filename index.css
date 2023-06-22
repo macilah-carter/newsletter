@@ -55,16 +55,18 @@ body{
 }
 .email button{
     margin: 2em;
-    width: 20em;
+    width: 25em;
     height: 3.5em;
     border-radius: 12px;
 }
 
 .final{
     display: none;
+    background: white;
+    height: 100vh;
 }
 .final img{
-    margin: 10em 4em 0 4em;
+    margin: 5em 4em 0 4em;
 }
 .message{
     margin: 3em  4em;
@@ -80,7 +82,7 @@ body{
 button{
     height: 3.5em;
     width: 30vh;
-    margin: 15em 5em 0em;
+    margin: 10em 5em 0em;
     border-radius: 12px;
     background-color: hsl(234, 29%, 20%);
     color: white;
