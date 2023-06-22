@@ -66,7 +66,7 @@ body{
     height: 100vh;
 }
 .final img{
-    margin: 5em 4em 0 4em;
+    margin: 8em 4em 0 4em;
 }
 .message{
     margin: 3em  4em;
@@ -82,7 +82,7 @@ body{
 button{
     height: 3.5em;
     width: 30vh;
-    margin: 10em 5em 0em;
+    margin: 7.5em 5em 0em;
     border-radius: 12px;
     background-color: hsl(234, 29%, 20%);
     color: white;
