@@ -8,6 +8,8 @@ body{
 }
 .section1{
     background-color: white;
+    
+    
 }
 .image img{
     height: 100%;
@@ -45,7 +47,7 @@ body{
 .email input{
     margin: 0em 2em;
     height: 3.5em;
-    width: 30em;
+    width: 25em;
     border-radius: 12px;
     text-align: left;
     padding: 5px;
@@ -58,10 +60,10 @@ body{
     border-radius: 12px;
 }
 
-#finalmessage{
+.final{
     display: none;
 }
-#finalmessage img{
+.final img{
     margin: 10em 4em 0 4em;
 }
 .message{
@@ -116,24 +118,24 @@ button{
         grid-area: email;
     }
 
-    #finalmessage{
+    .final{
         border: 1px solid black;
         margin: 6.5em;
         width: 30em;
         border-radius: 12px;
         background-color: white;
-        display: none;
+        
     }
-    #finalmessage .message{
+    .final .message{
         flex-wrap: wrap;
     }
-    #finalmessage button{
+    .final button{
         margin: 0 5em 1.5em;
         width: 20em;
         
         
     }
-    #finalmessage img{
+    .final img{
         margin: 2em 4em 0 4em;
     }
     .message{
